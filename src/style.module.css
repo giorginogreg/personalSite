@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'GentiumBasic';
+    src: local('GentiumBasic'), url(fonts/gentium-basic-font/GentiumBasic-23x3.ttf) format('truetype');
+}
+
+* {
+    font-family: GentiumBasic, serif;
+}
+
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    float: none;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  /* 1/3 of 60% = the 20% margin on either side */
+  margin-left: 5%;
+  margin-right: 5%;
+}
