@@ -1,0 +1,12 @@
+{
+  "language": "Language",
+  "university": {
+    "title": "List of done exams",
+    "ium_title": "Human-Machine Interaction",
+    "cs_title": "Cyber Security",
+    "score": "Grade"
+  },
+  "technical_knowledgements": {
+    "title": "Technical Knowledgements"
+  }
+}

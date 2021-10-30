@@ -1,0 +1,12 @@
+{
+  "language": "Lingua",
+  "university": {
+    "title": "Lista di esami sostenuti",
+    "ium_title": "Interazione uomo macchina",
+    "cs_title": "Cyber Security",
+    "score": "Voto"
+  },
+  "technical_knowledgements": {
+    "title": "Competenze tecniche"
+  }
+}
