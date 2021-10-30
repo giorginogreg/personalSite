@@ -4,9 +4,12 @@ import * as React from "react"
 import MyPhoto from "../images/me/me.jpg"
 import { container } from "../style.module.css"
 import { me } from '../me';
+import LanguageSwitcher from '../components/LanguageSwitcher';
+
 const IndexPage = () => {
     return (
         <>
+           {LanguageSwitcher('', '')}
             <header className={container}>
                 <span>
                     <img style={me.photo.style} src={MyPhoto} alt="My face" />
