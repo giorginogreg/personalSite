@@ -3,13 +3,15 @@ import * as React from "react"
 
 import MyPhoto from "../images/me/me.jpg"
 import { container } from "../style.module.css"
+import UniversityPage from './university';
+import TechnicalKnowledgementsPage from './TechnicalKnownledgements';
 import { me } from '../me';
 import LanguageSwitcher from '../components/LanguageSwitcher';
 
 const IndexPage = () => {
     return (
         <>
-           {LanguageSwitcher('', '')}
+            {LanguageSwitcher('', '')}
             <header className={container}>
                 <span>
                     <img style={me.photo.style} src={MyPhoto} alt="My face" />
@@ -19,6 +21,10 @@ const IndexPage = () => {
                     <div className="text-center profession"><h4>{me.profession}</h4></div>
                 </h1>
             </header>
+
+            <UniversityPage />
+
+            <TechnicalKnowledgementsPage />
         </>
     )
 }
