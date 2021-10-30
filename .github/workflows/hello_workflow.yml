@@ -27,7 +27,7 @@ jobs:
 
       - name: Sync
         env:
-          dest: 'ubuntu@52.16.204.189:/app'
+          dest: 'ubuntu@54.247.141.247:/app'
         run: |
           echo "${{secrets.DEPLOY_KEY}}" > deploy_key
           chmod 600 ./deploy_key
