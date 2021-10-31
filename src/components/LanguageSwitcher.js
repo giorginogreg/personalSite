@@ -16,7 +16,7 @@ export default function LanguageSwitcher({ label, className }) {
             {intl.formatMessage({ id: 'language' })}:
             <ul>
                 {languages.map(language => (
-                    <li key={language}>
+                    <li key={language.label}>
                         <Link to={'/' + language.url}>{getUnicodeFlagIcon(language.label)}</Link>
                     </li>
                 )
