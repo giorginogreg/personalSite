@@ -1,0 +1,11 @@
+CACHE MANIFEST
+
+CACHE:
+/index.html
+/css/cssPagina.css
+NETWORK:
+/inviaDocumento.aspx
+
+FALLBACK:
+news/* /offline.html
+/contatti.aspx /contatti.html 

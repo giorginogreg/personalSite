@@ -15,13 +15,13 @@ const IndexPage = () => {
     return (
         <>
             {LanguageSwitcher('', '')}
-            <header className={container}>
-                <span>
+            <header itemscope itemtype="https://schema.org/Person" className={container}>
+                <span >
                     <img style={me.photo.style} src={MyPhoto} alt="My face" />
                 </span>
                 <h1 style={me.style}>
-                    <div className="text-center name surname"><h3>{me.name} {me.surname}</h3></div>
-                    <div className="text-center profession"><h4>{me.profession}</h4></div>
+                    <div className="text-center name surname"><h3><span itemProp="name">{me.name}</span> <span itemProp="surname">{me.surname}</span></h3></div>
+                    <div className="text-center profession"><h4><span itemprop="role">{me.profession}</span></h4></div>
                 </h1>
             </header>
 
