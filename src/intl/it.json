@@ -1,4 +1,11 @@
 {
+  "name": "Nome",
+  "surname": "Cognome",
+  "submit": "Invia!",
+  "phone_number": "Numero di cellulare",
+  "small_description": "Breve descrizione della richiesta",
+  "request_content": "Contenuto della richiesta",
+  "request_content_placeholder": "Salve, la contatto per...",
   "language": "Lingua",
   "university": {
     "title": "Lista di esami sostenuti",
@@ -15,5 +22,8 @@
     "arduino_description": "Mi piace nel tempo libero costruire qualche piccolo progettino fatto in casa, prendendo spunto da quello che internet offre.",
     "guitar_title": "Suonare la chitarra",
     "guitar_description": "A volte, quando ho un po' di tempo, mi piace suonare alcune canzoni famose di generi musicali diversi, dal rock al pop, passando per le ballate."
+  },
+  "contact_form": {
+    "title": "Sentiti libero di contattarmi!"
   }
 }

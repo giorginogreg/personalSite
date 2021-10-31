@@ -7,6 +7,7 @@ import LanguageSwitcher from '../components/LanguageSwitcher';
 import UniversityPage from './university';
 import TechnicalKnowledgementsPage from './TechnicalKnownledgements';
 import MyHobbies from "./MyHobbies";
+import ContactMe from "./ContactMe";
 import { me } from '../me';
 
 const IndexPage = () => {
@@ -27,6 +28,8 @@ const IndexPage = () => {
 
             <TechnicalKnowledgementsPage />
             <MyHobbies />
+            <ContactMe />
+
         </>
     )
 }

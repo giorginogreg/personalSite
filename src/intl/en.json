@@ -1,4 +1,11 @@
 {
+  "name": "Name",
+  "surname": "Surname",
+  "submit": "Send!",
+  "phone_number": "Phone number",
+  "small_description": "Small description of request",
+  "request_content": "Request content",
+  "request_content_placeholder": "Dear Gregorio, i'm sending you this e-mail for...",
   "language": "Language",
   "university": {
     "title": "List of done exams",
@@ -15,5 +22,8 @@
     "arduino_description": "In my spare time I like to build some small homemade projects, taking inspiration from what the internet offers.",
     "guitar_title": "Playing with the guitar",
     "guitar_description": "Sometimes when I have a little bit of time, i like to play some famous songs from different musical genders, from the rock to the pop, going to the ballads. "
+  },
+  "contact_form": {
+    "title": "Feel free to contact me!"
   }
 }
