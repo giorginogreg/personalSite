@@ -8,5 +8,12 @@
   },
   "technical_knowledgements": {
     "title": "Competenze tecniche"
+  },
+  "myhobbies": {
+    "title": "I miei hobby",
+    "arduino_title": "Progetti fatti in casa con Arduino",
+    "arduino_description": "Mi piace nel tempo libero costruire qualche piccolo progettino fatto in casa, prendendo spunto da quello che internet offre.",
+    "guitar_title": "Suonare la chitarra",
+    "guitar_description": "A volte, quando ho un po' di tempo, mi piace suonare alcune canzoni famose di generi musicali diversi, dal rock al pop, passando per le ballate."
   }
 }

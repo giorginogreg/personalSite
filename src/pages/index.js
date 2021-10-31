@@ -3,10 +3,11 @@ import * as React from "react"
 
 import MyPhoto from "../images/me/me.jpg"
 import { container } from "../style.module.css"
+import LanguageSwitcher from '../components/LanguageSwitcher';
 import UniversityPage from './university';
 import TechnicalKnowledgementsPage from './TechnicalKnownledgements';
+import MyHobbies from "./MyHobbies";
 import { me } from '../me';
-import LanguageSwitcher from '../components/LanguageSwitcher';
 
 const IndexPage = () => {
     return (
@@ -25,6 +26,7 @@ const IndexPage = () => {
             <UniversityPage />
 
             <TechnicalKnowledgementsPage />
+            <MyHobbies />
         </>
     )
 }

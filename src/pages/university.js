@@ -12,7 +12,9 @@ const UniversityPage = () => {
                 <h2>{intl.formatMessage({ id: 'university.title' })}</h2>
                 <ul>
                     {me.finished_exams.exams.map(exam => (
-                        <li key={exam.subject_key}>
+
+
+                        <li key={exam.subject_key} >
                             <span>
                                 {exam.icon && (
                                     <span aria-label="New Badge">

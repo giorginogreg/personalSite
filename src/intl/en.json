@@ -8,5 +8,12 @@
   },
   "technical_knowledgements": {
     "title": "Technical Knowledgements"
+  },
+  "myhobbies": {
+    "title": "My personal hobbies",
+    "arduino_title": "D-I-Y w\\ Arduino",
+    "arduino_description": "In my spare time I like to build some small homemade projects, taking inspiration from what the internet offers.",
+    "guitar_title": "Playing with the guitar",
+    "guitar_description": "Sometimes when I have a little bit of time, i like to play some famous songs from different musical genders, from the rock to the pop, going to the ballads. "
   }
 }
