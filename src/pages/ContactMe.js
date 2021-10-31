@@ -16,7 +16,7 @@ export default function ContactMe() {
             <h1>
                 {intl.formatMessage({ id: 'contact_form.title' })}
             </h1>
-            <form method="post" enctype="text/plain" action={"mailto:" + process.env.MY_MAIL}>
+            <form method="post" encType="text/plain" action={"mailto:" + process.env.MY_MAIL}>
                 <div className="name_surname">
                     <label>{intl.formatMessage({ id: 'name' })}</label>: <input type="text" name="name" required id="name" autoComplete="on" /> <br />
                     <label>{intl.formatMessage({ id: 'surname' })}</label>: <input type="text" name="surname" required id="surname" autoComplete="on" />

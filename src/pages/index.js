@@ -9,6 +9,7 @@ import TechnicalKnowledgementsPage from './TechnicalKnownledgements';
 import MyHobbies from "./MyHobbies";
 import ContactMe from "./ContactMe";
 import { me } from '../me';
+import MyPosition from "./MyPosition";
 
 const IndexPage = () => {
     return (
@@ -29,7 +30,7 @@ const IndexPage = () => {
             <TechnicalKnowledgementsPage />
             <MyHobbies />
             <ContactMe />
-
+            <MyPosition />
         </>
     )
 }
